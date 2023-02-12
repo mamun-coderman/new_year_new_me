@@ -8,13 +8,8 @@
     height: 808px;
     width: 1600px;
 }  
-/* .header_text_area{
-    margin-right: 230px;
-    margin-top: 216px;
-    
-}   */
 
-h2{
+.header_part h2{
     font-size: 65px;
     font-weight: 700;
     line-height: 76px;
@@ -23,7 +18,7 @@ h2{
     padding-right: 230px;
     color: #FFFFFF;
 }
-p{
+.header_part p{
     font-size: 16px;
     font-weight: 400px;
     line-height: 26px;
@@ -31,7 +26,7 @@ p{
     padding-right: 230px;
     color: #FFFFFF;
 }
-.button{
+.header_part .button{
     
     text-align: right;
     font-size: 20px;
@@ -47,4 +42,36 @@ p{
 }
 .spaces{
     padding-right: 230px;
+}
+
+/* header part ends and main part start  */
+
+.failure{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: 130px 300px;
+}
+.failure .image{
+    width: 500px;
+    height: 700px;
+
+}
+.failure .failure_list{
+    width: 400px;
+    height: 400px;
+    padding-top: 240px;
+    padding-bottom: 0;
+    padding-left: 100px;
+}
+.failure_list h3{
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 45px;
+}
+.failure_list p ul{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 26px;
+    color: #444343;
 }
