@@ -75,3 +75,24 @@
     line-height: 26px;
     color: #444343;
 }
+
+/* failure parts ends ands plan parts starts */
+
+.plan{
+    width: 1140px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.plan h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+.plan_items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+    
+}
