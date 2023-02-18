@@ -24,6 +24,8 @@
     line-height: 26px;
     text-align: right;
     padding-right: 230px;
+    padding-top: 24px;
+    padding-bottom: 30px;
     color: #FFFFFF;
 }
 .header_part a{
@@ -34,12 +36,13 @@
     background-color: #fff;
     color: #005FAC;
     border-radius: 5px;
-    position: absolute;
-    right: 0px;
+    
+    
     
 }
 .spaces{
-    padding-right: 230px;
+    text-align: right;
+    
 }
 
 /* header part ends and main part start  */
@@ -195,5 +198,39 @@
     background-color: #005FAC;
     color: #FFFFFF;
     border-radius: 5px;
+}
+
+/* gradiant_part starts */
+
+.gradiant_part{
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+
+}
+.gradiant_part h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+.gradiant_part a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #005FAC;
+    border-radius: 5px;
+}
+.gradiant_part p{
+    padding-left: 60px;
 }
 
