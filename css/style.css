@@ -26,9 +26,7 @@
     padding-right: 230px;
     color: #FFFFFF;
 }
-.header_part .button{
-    
-    text-align: right;
+.header_part a{
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
@@ -78,7 +76,7 @@
 
 /* failure parts ends ands plan parts starts */
 
-.plan{
+.plan {
     width: 1140px;
     margin-left: 230px;
     margin-right: 230px;
@@ -92,7 +90,110 @@
 }
 .plan_items{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 55px;
+    gap: 86px;
+}
+.item-1 .item-2 .item-3 .item-4 h4{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+.item-1 .item-2 .item-3 .item-4 p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+    line-height: 29px;
+} 
+
+/* inspiration starts */
+.inspiration{
+    width: 1140px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 130px;
+}
+.inspiration h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+.inspiration p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+    line-height: 35px;
+}
+.person{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.subeen{
+    width: 50%;
+}
+.jhankar{
+    width: 50%;
+}
+.subeen img{
+    width: 30%;
+    border-radius: 5px;
+}
+.jhankar img{
+    width: 30%;
+    border-radius: 5px;
     
 }
+.subeen h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+}
+.subeen p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #737272;
+    line-height: 29px;
+}
+.jhankar h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+}
+.jhankar p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #737272;
+    line-height: 29px;
+}
+.subeen .button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.jhankar .button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
